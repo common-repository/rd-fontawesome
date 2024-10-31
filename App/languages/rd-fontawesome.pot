@@ -1,0 +1,282 @@
+# Copyright (C) 2022 Vee Winch
+# This file is distributed under the MIT.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rundiz Font Awesome 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rd-fontawesome\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-21T18:58:20+07:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: rd-fontawesome\n"
+
+#. Plugin Name of the plugin
+#: App/Controllers/Admin/Settings.php:107
+msgid "Rundiz Font Awesome"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://rundiz.com/?p=319"
+msgstr ""
+
+#. Description of the plugin
+msgid "Use Font Awesome from your host and update from GitHub."
+msgstr ""
+
+#. Author of the plugin
+msgid "Vee Winch"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://rundiz.com"
+msgstr ""
+
+#: App/Controllers/Admin/Settings.php:38
+msgid "Dismiss this notice."
+msgstr ""
+
+#: App/Controllers/Admin/Settings.php:39
+msgid "Loading"
+msgstr ""
+
+#: App/Controllers/Admin/Settings.php:107
+msgid "Rundiz Font Awesome settings"
+msgstr ""
+
+#: App/Controllers/Admin/Settings.php:140
+msgid "Invalid request."
+msgstr ""
+
+#: App/Controllers/Admin/SettingsAjax.php:78
+#: App/Controllers/Admin/SettingsAjax.php:220
+msgid "Your request rate limit on GItHub has been exceeded."
+msgstr ""
+
+#: App/Controllers/Admin/SettingsAjax.php:126
+msgid "You have installed latest version of Font Awesome. However, there are some files or directories that is unable to move to target path."
+msgstr ""
+
+#: App/Controllers/Admin/SettingsAjax.php:142
+msgid "Success! You have installed latest version of Font Awesome."
+msgstr ""
+
+#: App/Controllers/Admin/SettingsAjax.php:158
+msgid "Success! Your Font Awesome is already latest version."
+msgstr ""
+
+#: App/Controllers/Admin/SettingsAjax.php:174
+msgid "Unable to retrieve latest version from GitHub."
+msgstr ""
+
+#. translators: %1$s open link, %2$s close link.
+#: App/Controllers/Admin/SettingsAjax.php:282
+msgid "Save is pending. Please open your %1$shome%2$s to let scaning process work for scan dequeue files and come back to save again."
+msgstr ""
+
+#: App/Controllers/Admin/SettingsAjax.php:312
+#: App/Controllers/Admin/SettingsAjax.php:361
+msgid "Saved successfully."
+msgstr ""
+
+#. translators: %1$s the scanned result.
+#: App/Controllers/Admin/SettingsAjax.php:315
+msgid "Some of your handles were removed due to failed to verify it's Font Awesome. (%1$s)"
+msgstr ""
+
+#. translators: %1$s the result of scanned CSS.
+#: App/Controllers/Admin/SettingsAjax.php:317
+msgid "CSS: %1$s"
+msgstr ""
+
+#. translators: %1$s the result of scanned JS.
+#: App/Controllers/Admin/SettingsAjax.php:319
+msgid "JS: %1$s"
+msgstr ""
+
+#: App/Controllers/Admin/SettingsAjax.php:390
+msgid "Success!"
+msgstr ""
+
+#: App/Controllers/Admin/SettingsAjax.php:395
+msgid "Your access token is incorrect."
+msgstr ""
+
+#: App/Controllers/Admin/SettingsAjax.php:439
+msgid "Font Awesome files were removed successfully."
+msgstr ""
+
+#: App/Controllers/Front/Hooks/PrintScriptsScanDequeue.php:74
+msgid "Scan completed. Please close this window, go back to settings page and click on save button again."
+msgstr ""
+
+#. translators: %1$s the downloaded file path.
+#: App/Libraries/Url.php:111
+msgid "The downloaded file is not zip file. (%1$s)."
+msgstr ""
+
+#. translators: %1$s the public path to Font Awesome asset.
+#. translators: %1$s the plugin directory path.
+#: App/Libraries/Url.php:246
+#: App/Libraries/Url.php:317
+msgid "Unable to create directory at %1$s."
+msgstr ""
+
+#: App/Libraries/Url.php:256
+#: App/Libraries/Url.php:519
+msgid "Unknown selected major version."
+msgstr ""
+
+#. translators: %1$s the required file name.
+#: App/Libraries/Url.php:540
+msgid "The required Font Awesome file is not exists. (%1$s)"
+msgstr ""
+
+#: App/Libraries/Url.php:558
+msgid "Invalid Font Awesome files."
+msgstr ""
+
+#: App/Views/admin/settings_serverinfo_tab.php:4
+msgid "WordPress"
+msgstr ""
+
+#: App/Views/admin/settings_serverinfo_tab.php:8
+msgid "PHP"
+msgstr ""
+
+#: App/Views/admin/settings_serverinfo_tab.php:12
+msgid "Execution timeout"
+msgstr ""
+
+#: App/Views/admin/settings_serverinfo_tab.php:16
+msgid "Memory limit"
+msgstr ""
+
+#: App/Views/admin/settings_serverinfo_tab.php:20
+msgid "WordPress Memory limit"
+msgstr ""
+
+#: App/Views/admin/settings_serverinfo_tab.php:26
+msgid "Plugin version"
+msgstr ""
+
+#: App/Views/admin/settings_serverinfo_tab.php:30
+msgid "Writable directories and files"
+msgstr ""
+
+#: App/Views/admin/settings_serverinfo_tab.php:36
+msgid "Yes."
+msgstr ""
+
+#: App/Views/admin/settings_serverinfo_tab.php:38
+msgid "No."
+msgstr ""
+
+#: App/Views/admin/settings_serverinfo_tab.php:40
+msgid "Not exists."
+msgstr ""
+
+#: App/Views/admin/settings_serverinfo_tab.php:42
+msgid "Maybe created automatically after first installed."
+msgstr ""
+
+#: App/Views/admin/settings_v.php:7
+msgid "Server info"
+msgstr ""
+
+#: App/Views/admin/settings_v.php:14
+msgid "Use major version"
+msgstr ""
+
+#: App/Views/admin/settings_v.php:34
+msgid "GitHub personal access token"
+msgstr ""
+
+#: App/Views/admin/settings_v.php:37
+msgid "Test token"
+msgstr ""
+
+#: App/Views/admin/settings_v.php:40
+msgid "GitHub personal access token is optional, but without it you can only access to GitHub only 60 requests per hour. Access with token can make up to 5,000 requests per hour."
+msgstr ""
+
+#: App/Views/admin/settings_v.php:42
+msgid "See reference."
+msgstr ""
+
+#. translators: %1$s open link tag, %2$s close link tag
+#: App/Views/admin/settings_v.php:47
+msgid "Open GitHub %1$ssettings page%2$s and go to Developer settings > Personal access tokens."
+msgstr ""
+
+#. translators: %1$s required scope for GitHub token.
+#: App/Views/admin/settings_v.php:54
+msgid "Create token with these scopes: %1$s."
+msgstr ""
+
+#. translators: %1$s is user:token text, %2$s is user text.
+#: App/Views/admin/settings_v.php:61
+msgid "The value must be %1$s where %2$s is GitHub username."
+msgstr ""
+
+#: App/Views/admin/settings_v.php:69
+msgid "Latest Font Awesome version"
+msgstr ""
+
+#: App/Views/admin/settings_v.php:72
+msgid "Retrieve latest version info."
+msgstr ""
+
+#: App/Views/admin/settings_v.php:73
+#: App/Views/admin/settings_v.php:82
+msgid "This will be use latest minor version of selected major version."
+msgstr ""
+
+#: App/Views/admin/settings_v.php:77
+msgid "Installed Font Awesome version"
+msgstr ""
+
+#: App/Views/admin/settings_v.php:80
+msgid "Install latest version"
+msgstr ""
+
+#: App/Views/admin/settings_v.php:81
+msgid "Uninstall Font Awesome"
+msgstr ""
+
+#: App/Views/admin/settings_v.php:86
+msgid "Unload enqueued CSS handles"
+msgstr ""
+
+#: App/Views/admin/settings_v.php:90
+msgid "Dequeue the other Font Awesome CSS handles that was enqueued by other plugins or themes."
+msgstr ""
+
+#. translators: %1$s comma sign.
+#: App/Views/admin/settings_v.php:93
+#: App/Views/admin/settings_v.php:106
+msgid "Separate values by %1$s."
+msgstr ""
+
+#: App/Views/admin/settings_v.php:99
+msgid "Unload enqueued JS handles"
+msgstr ""
+
+#: App/Views/admin/settings_v.php:103
+msgid "Dequeue the  other Font Awesome JavaScript handles that was enqueued by other plugins or themes."
+msgstr ""
+
+#: App/Views/admin/settings_v.php:112
+msgid "Do not enqueue assets"
+msgstr ""
+
+#: App/Views/admin/settings_v.php:116
+msgid "Check this box to do not enqueue assets for this plugin."
+msgstr ""
+
+#: App/Views/admin/settings_v.php:117
+msgid "The assets for this plugin such as CSS, fonts won't be loaded."
+msgstr ""

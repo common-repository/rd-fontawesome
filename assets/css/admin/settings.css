@@ -1,0 +1,89 @@
+/*
+Admin Settings page.
+
+@since 1.0.0
+*/
+
+
+.rd-fontawesome-svinfo-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.rd-fontawesome-svinfo-table td,
+.rd-fontawesome-svinfo-table th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+.rd-fontawesome-svinfo-table th {
+    width: 150px;
+}
+.rd-fontawesome-svinfo-table td p:first-child,
+.rd-fontawesome-svinfo-table th p:first-child {
+    margin-top: 0;
+}
+.rd-fontawesome-svinfo-table td p:last-child,
+.rd-fontawesome-svinfo-table th p:last-child {
+    margin-bottom: 0;
+}
+
+
+.rd-fontawesome-tabs-container {
+    margin-bottom: 20px;
+}
+
+
+.rd-fontawesome-tab {
+    background-color: #f0f0f1;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-bottom: -1px;
+    padding: 5px 10px;
+    position: relative;
+    text-decoration: none;
+}
+.rd-fontawesome-tab.active {
+    background-color: #f0f0f1;
+    border-bottom-color: transparent;
+    box-shadow: inset 0 7px 0 -2px #fff;
+}
+
+
+.rd-fontawesome-tabs {
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.rd-fontawesome-tabs::after {
+    clear: both;
+}
+
+
+.rd-fontawesome-tabs-content {
+    background-color: #f0f0f1;
+    padding: 10px;
+}
+.rd-fontawesome-tabs-content > * {
+    display: none;
+}
+.rd-fontawesome-tabs-content > .active {
+    display: block;
+}
+
+
+.rd-fontawesome-txt-error {
+    color: red;
+}
+
+
+#rd-fontawesome-settings-form {
+    margin: 20px 0;
+}
+#rd-fontawesome-settings-form * {
+    box-sizing: border-box;
+}
+
+
+#rd-fontawesome-form-result-placeholder .notice {
+    margin-bottom: 20px;
+}
